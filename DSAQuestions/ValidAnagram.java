@@ -49,4 +49,14 @@ public class ValidAnagram {
         System.out.println("Test 2: " + isAnagram(s2, t2)); // expected output: false
     }
 }
-
+/*
+ * Time Complexity: O(n + m)
+ * - We go through both strings once (n = length of s, m = length of t).
+ * - HashMap put/get operations take O(1) on average.
+ *
+ * Space Complexity: O(1) / O(k)
+ * - At most, we store counts of characters.
+ * - Since characters are limited (like lowercase English letters → 26),
+ *   space is constant → O(1).
+ * - More generally, if all Unicode chars were allowed → O(k), where k is unique chars.
+ */
