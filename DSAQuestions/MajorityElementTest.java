@@ -13,6 +13,7 @@ import java.util.Map;
  * The problem: Given an array of size n, find the element that appears more than n/2 times.
  */
 
+// https://leetcode.com/problems/majority-element/
 public class MajorityElementTest {
 
     /**
